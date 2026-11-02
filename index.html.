@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#061b16">
+<meta name="description" content="WhatsApp Glow - مشروع مستقل لتطوير تطبيق تواصل ومراسلة حديث.">
+<title>WhatsApp Glow | الموقع الرسمي للمشروع</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+ font-family:Tahoma,Arial,sans-serif;
+ background:#061b16;color:#f1fff8;
+ line-height:1.9
+}
+header{
+ padding:22px 8%;display:flex;
+ justify-content:space-between;align-items:center;
+ flex-wrap:wrap;gap:15px;
+ border-bottom:1px solid #174b3c
+}
+.logo{font-size:25px;font-weight:bold;color:#00e6a0}
+nav{display:flex;flex-wrap:wrap;gap:10px}
+nav a{color:#d6eee4;text-decoration:none;margin:0 5px}
+nav a:hover,footer a:hover{color:white}
+.hero{
+ min-height:590px;padding:100px 8%;
+ display:flex;flex-direction:column;
+ justify-content:center;align-items:center;text-align:center;
+ background:radial-gradient(ellipse at center,#104b37,#061b16 70%)
+}
+.hero h1{font-size:clamp(30px,6vw,48px);margin-bottom:15px}
+.hero h1 span{color:#00e6a0}
+.hero p{max-width:650px;color:#c0d9ce;font-size:18px}
+.tag{
+ display:inline-block;border:1px solid #00c98b;
+ color:#00e6a0;padding:5px 18px;border-radius:30px;
+ margin-bottom:25px
+}
+.btn{
+ display:inline-block;margin-top:30px;padding:12px 30px;
+ background:#00d69a;color:#032219;
+ text-decoration:none;border-radius:12px;font-weight:bold
+}
+section{padding:75px 8%}
+h2{text-align:center;font-size:32px;margin-bottom:35px}
+.cards{
+ display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:20px
+}
+.card{
+ background:#0b2a20;border:1px solid #174b3c;
+ padding:25px;border-radius:18px
+}
+.card h3{color:#00e6a0;margin-bottom:12px}
+.card p{color:#c0d9ce}
+.about{text-align:center;background:#09251c}
+.about p{max-width:750px;margin:auto;color:#c0d9ce}
+.policy{max-width:900px;margin:auto}
+.policy h3{color:#00e6a0;margin:25px 0 8px}
+.policy p,.policy li{color:#c0d9ce}
+.policy ul{padding-right:25px}
+.email{
+ display:inline-block;color:#00e6a0;
+ text-decoration:none;direction:ltr;
+ overflow-wrap:anywhere
+}
+footer{
+ padding:35px 8%;text-align:center;
+ border-top:1px solid #174b3c;color:#a8c7b8
+}
+footer a{color:#00e6a0;margin:8px;text-decoration:none}
+@media(max-width:600px){
+ header{justify-content:center;text-align:center}
+ nav{justify-content:center}
+ section{padding:55px 6%}
+ .hero{min-height:500px;padding:75px 6%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+ <div class="logo">✦ WhatsApp Glow</div>
+ <nav>
+  <a href="#home">الرئيسية</a>
+  <a href="#features">المميزات</a>
+  <a href="#about">من نحن</a>
+  <a href="#contact">التواصل</a>
+ </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <span class="tag">مشروع تقني مستقل</span>
+ <h1>مرحبًا بك في <span>WhatsApp Glow</span></h1>
+ <p>
+  نعمل على تطوير تجربة مراسلة حديثة تجمع بين
+  سهولة التواصل والتصميم الأنيق والاهتمام بالخصوصية.
+  اكتشف رؤيتنا لمستقبل التواصل الرقمي.
+ </p>
+ <a href="#about" class="btn">اكتشف المشروع</a>
+</section>
+
+<section id="features">
+ <h2>رؤيتنا ومميزاتنا المستهدفة</h2>
+ <div class="cards">
+  <div class="card">
+   <h3>💬 المحادثات</h3>
+   <p>تطوير تجربة محادثات سهلة ومنظمة بين المستخدمين.</p>
+  </div>
+  <div class="card">
+   <h3>🔒 الخصوصية</h3>
+   <p>الاهتمام بخصوصية المستخدمين والتعامل المسؤول مع بياناتهم.</p>
+  </div>
+  <div class="card">
+   <h3>🌙 التصميم</h3>
+   <p>واجهة عصرية مع تجربة استخدام مريحة ووضع داكن.</p>
+  </div>
+  <div class="card">
+   <h3>⚡ التطوير</h3>
+   <p>نعمل على تحسين تجربة التطبيق وإضافة الميزات تدريجيًا.</p>
+  </div>
+ </div>
+</section>
+
+<section class="about" id="about">
+ <h2>من نحن</h2>
+ <p>
+  WhatsApp Glow مشروع تقني مستقل يعمل على تطوير
+  تطبيق للتواصل والمراسلة.
+  يهدف المشروع إلى تقديم تجربة استخدام حديثة
+  مع الاهتمام بالخصوصية والتطوير المستمر.
+ </p>
+ <p style="margin-top:20px;color:#00e6a0">
+  صانع المشروع: جلال محمد باوزير
+ </p>
+</section>
+
+<section id="contact">
+ <h2>التواصل والدعم</h2>
+ <div class="card" style="text-align:center;max-width:650px;margin:auto">
+  <h3>هل لديك استفسار؟</h3>
+  <p>يمكنك التواصل معنا عبر البريد الإلكتروني:</p>
+  <p style="margin-top:12px">
+   <a class="email" href="mailto:galalbawzyr7@gmail.com">
+    galalbawzyr7@gmail.com
+   </a>
+  </p>
+  <p style="margin-top:12px">
+   للاستفسارات أو طلبات الخصوصية أو حذف البيانات،
+   يمكنك مراسلتنا عبر البريد أعلاه.
+  </p>
+ </div>
+</section>
+
+<section id="privacy" class="about">
+ <div class="policy">
+  <h2>سياسة الخصوصية</h2>
+  <p>
+   توضح هذه السياسة كيفية تعامل مشروع WhatsApp Glow
+   مع المعلومات عند استخدام التطبيق أو خدماته.
+   المشروع قيد التطوير، وقد تتغير بعض الوظائف مع تحديثاته.
+  </p>
+
+  <h3>1. المعلومات التي قد نجمعها</h3>
+  <p>
+   بحسب الخدمات التي يستخدمها المستخدم، قد يتعامل التطبيق
+   مع معلومات الحساب مثل الاسم والبريد الإلكتروني ورقم الهاتف
+   ومعرّف الحساب، إضافة إلى معلومات الملف الشخصي.
+  </p>
+  <p>
+   وقد يتعامل التطبيق مع محتوى الرسائل وبيانات المحادثات
+   التي يرسلها المستخدمون أو يستقبلونها من خلال الخدمة،
+   وكذلك معلومات تقنية ضرورية لتشغيل التطبيق.
+  </p>
+
+  <h3>2. استخدام المعلومات</h3>
+  <p>
+   تُستخدم المعلومات لأغراض إنشاء الحساب وتسجيل الدخول،
+   والتحقق من رقم الهاتف، وتشغيل المحادثات،
+   وتحسين الخدمة، ومعالجة المشكلات التقنية،
+   وحماية الحسابات من الاستخدام غير المصرح به.
+  </p>
+
+  <h3>3. خدمات الأطراف الأخرى</h3>
+  <p>
+   قد يعتمد التطبيق على خدمات تقنية خارجية لتشغيل بعض الوظائف،
+   مثل خدمات Firebase التابعة لشركة Google للمصادقة
+   وقاعدة البيانات، وقد يستخدم خدمات تسجيل الدخول
+   التابعة لـ Google أو Facebook عند اختيار المستخدم لها.
+   تخضع معالجة البيانات لدى هذه الجهات لسياساتها الخاصة.
+  </p>
+
+  <h3>4. تخزين المعلومات وحمايتها</h3>
+  <p>
+   تُخزّن بعض بيانات التطبيق باستخدام الخدمات التقنية
+   التي يعتمد عليها المشروع. ونعمل على اتخاذ تدابير
+   مناسبة لحماية المعلومات، لكن لا يمكن ضمان أمان
+   أي نظام إلكتروني بصورة مطلقة.
+  </p>
+  <p>
+   لا ينبغي اعتبار هذه السياسة تأكيدًا على وجود
+   تشفير شامل بين الطرفين للرسائل ما لم يتم تنفيذ
+   هذه الميزة والتحقق منها فعليًا.
+  </p>
+
+  <h3>5. الاحتفاظ بالبيانات وحذفها</h3>
+  <p>
+   قد نحتفظ بالمعلومات ما دامت لازمة لتشغيل الحساب
+   وتقديم الخدمة، أو للوفاء بالالتزامات القانونية
+   ومعالجة النزاعات. يمكن للمستخدم التواصل معنا
+   لطلب حذف بياناته أو الاستفسار عن ذلك.
+  </p>
+
+  <h3>6. خصوصية الأطفال</h3>
+  <p>
+   لا يوجّه المشروع خدماته للأطفال دون السن المسموح
+   به قانونيًا لاستخدام هذه الخدمات. إذا تبيّن لنا
+   وجود بيانات جُمعت بالمخالفة لذلك، يمكن التواصل
+   معنا لمعالجة الأمر.
+  </p>
+
+  <h3>7. تحديث سياسة الخصوصية</h3>
+  <p>
+   قد نحدّث هذه السياسة عند تطوير التطبيق أو تغيير
+   طريقة معالجة البيانات. وسيتم نشر النسخة المحدّثة
+   على هذه الصفحة مع تحديث تاريخ المراجعة.
+  </p>
+
+  <h3>8. التواصل بشأن الخصوصية</h3>
+  <p>
+   لأي استفسار أو طلب متعلق بالبيانات والخصوصية،
+   راسلنا على:
+   <a class="email" href="mailto:galalbawzyr7@gmail.com">
+    galalbawzyr7@gmail.com
+   </a>
+  </p>
+
+  <p style="margin-top:25px;font-size:13px">
+   آخر تحديث: 2 نوفمبر 2026
+  </p>
+ </div>
+</section>
+
+<section id="terms">
+ <div class="policy">
+  <h2>شروط الاستخدام</h2>
+
+  <h3>1. قبول الشروط</h3>
+  <p>
+   باستخدام WhatsApp Glow، يوافق المستخدم على الالتزام
+   بهذه الشروط والقوانين المعمول بها.
+  </p>
+
+  <h3>2. الاستخدام المسموح</h3>
+  <p>
+   يجب استخدام التطبيق لأغراض مشروعة، واحترام حقوق
+   الآخرين وخصوصيتهم، وعدم إرسال محتوى غير قانوني
+   أو تهديدي أو مسيء.
+  </p>
+
+  <h3>3. الحسابات</h3>
+  <p>
+   يتحمل المستخدم مسؤولية صحة المعلومات التي يقدمها
+   والمحافظة على سرية بيانات الدخول الخاصة به،
+   وإبلاغنا عند الاشتباه في استخدام حسابه دون إذنه.
+  </p>
+
+  <h3>4. إساءة الاستخدام</h3>
+  <p>
+   لا يجوز محاولة اختراق التطبيق أو تعطيل خدماته
+   أو استغلالها للإزعاج أو الاحتيال أو انتهاك حقوق الغير.
+   قد نتخذ إجراءات مناسبة تجاه الاستخدام المخالف.
+  </p>
+
+  <h3>5. توفر الخدمة</h3>
+  <p>
+   المشروع قيد التطوير، ولذلك قد تتغير بعض الميزات
+   أو تتوقف مؤقتًا لأغراض الصيانة أو التحسين.
+   لا نضمن توفر الخدمة دون انقطاع.
+  </p>
+
+  <h3>6. الملكية الفكرية</h3>
+  <p>
+   تعود حقوق عناصر المشروع الأصلية إلى أصحابها،
+   ولا يجوز نسخها أو إعادة استخدامها بطريقة تنتهك
+   الحقوق القانونية دون إذن.
+  </p>
+
+  <h3>7. التعديلات والتواصل</h3>
+  <p>
+   قد يتم تحديث هذه الشروط عند الحاجة.
+   للاستفسارات، يمكنك التواصل عبر:
+   <a class="email" href="mailto:galalbawzyr7@gmail.com">
+    galalbawzyr7@gmail.com
+   </a>
+  </p>
+ </div>
+</section>
+</main>
+
+<footer>
+ <p>© 2026 WhatsApp Glow - جميع الحقوق محفوظة للمشروع.</p>
+ <p style="margin-top:10px">
+  <a href="#privacy">سياسة الخصوصية</a>
+  <a href="#terms">شروط الاستخدام</a>
+  <a href="#contact">التواصل</a>
+ </p>
+ <p style="font-size:12px;margin-top:15px">
+  WhatsApp Glow مشروع مستقل، وليس تابعًا أو معتمدًا من WhatsApp أو Meta.
+ </p>
+</footer>
+
+</body>
+</html>
